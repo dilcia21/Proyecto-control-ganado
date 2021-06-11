@@ -56,7 +56,7 @@ Partial Class Ingredientes
         Me.btnguardar.Name = "btnguardar"
         Me.btnguardar.Size = New System.Drawing.Size(80, 30)
         Me.btnguardar.TabIndex = 19
-        Me.btnguardar.Text = "Guardar"
+        Me.btnguardar.Text = "Guardaaar"
         Me.btnguardar.UseVisualStyleBackColor = True
         '
         'dgingredientes

@@ -48,7 +48,7 @@ Public Class Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim conc As New SqlClient.SqlConnection
-        conc.ConnectionString = " Data Source = DESKTOP-9DQE8EK;Initial Catalog=base_proyecto;Integrated Security=True "
+        conc.ConnectionString = " Data Source = localhost;Initial Catalog=base_proyecto;Integrated Security=True "
         conc.Open()
     End Sub
 
