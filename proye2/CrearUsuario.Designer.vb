@@ -102,7 +102,7 @@ Partial Class CrearUsuario
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.BurlyWood
-        Me.Button1.BackgroundImage = Global.proye.My.Resources.Resources.iconfinder_1031520_arrow_download_save_guardar_icon_32px
+        Me.Button1.BackgroundImage = Global.proye.My.Resources.Resources.icons8_añadir_a_la_cesta_de_compra_48
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
