@@ -98,7 +98,7 @@ Partial Class Compra
         Me.btagregar.Name = "btagregar"
         Me.btagregar.Size = New System.Drawing.Size(109, 51)
         Me.btagregar.TabIndex = 32
-        Me.btagregar.Text = "+"
+        Me.btagregar.Text = "Agregar"
         Me.btagregar.UseVisualStyleBackColor = True
         '
         'txtprecio
