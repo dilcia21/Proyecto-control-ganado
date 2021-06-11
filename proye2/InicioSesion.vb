@@ -8,7 +8,7 @@ Public Class Form1
 
     Private Sub btnentrar_Click(sender As Object, e As EventArgs) Handles btnentrar.Click
         Dim conc As New SqlClient.SqlConnection
-        conc.ConnectionString = "Data Source=DESKTOP-9DQE8EK;Initial Catalog=base_proyecto;Integrated Security=True "
+        conc.ConnectionString = "Data Source=localhost;Initial Catalog=base_proyecto;Integrated Security=True "
         conc.Open()
 
         Dim sql As String = "select * from usuarios where usuario='" & txtusu1.Text & "'and contrasenia='" & txtpass.Text & "'"
