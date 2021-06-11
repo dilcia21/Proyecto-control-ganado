@@ -58,7 +58,7 @@ Partial Class Compra
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(721, 349)
+        Me.Label11.Location = New System.Drawing.Point(564, 240)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(126, 20)
         Me.Label11.TabIndex = 36
@@ -67,7 +67,7 @@ Partial Class Compra
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(599, 349)
+        Me.Label10.Location = New System.Drawing.Point(442, 240)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(41, 20)
         Me.Label10.TabIndex = 35
@@ -76,7 +76,7 @@ Partial Class Compra
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(425, 349)
+        Me.Label9.Location = New System.Drawing.Point(268, 240)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(43, 20)
         Me.Label9.TabIndex = 34
@@ -85,7 +85,7 @@ Partial Class Compra
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(254, 349)
+        Me.Label8.Location = New System.Drawing.Point(97, 240)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(82, 20)
         Me.Label8.TabIndex = 33
@@ -93,7 +93,7 @@ Partial Class Compra
         '
         'btagregar
         '
-        Me.btagregar.Location = New System.Drawing.Point(903, 373)
+        Me.btagregar.Location = New System.Drawing.Point(746, 264)
         Me.btagregar.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btagregar.Name = "btagregar"
         Me.btagregar.Size = New System.Drawing.Size(109, 51)
@@ -103,7 +103,7 @@ Partial Class Compra
         '
         'txtprecio
         '
-        Me.txtprecio.Location = New System.Drawing.Point(734, 373)
+        Me.txtprecio.Location = New System.Drawing.Point(577, 264)
         Me.txtprecio.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtprecio.Name = "txtprecio"
         Me.txtprecio.Size = New System.Drawing.Size(100, 27)
@@ -111,7 +111,7 @@ Partial Class Compra
         '
         'txtraza
         '
-        Me.txtraza.Location = New System.Drawing.Point(582, 373)
+        Me.txtraza.Location = New System.Drawing.Point(425, 264)
         Me.txtraza.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtraza.Name = "txtraza"
         Me.txtraza.Size = New System.Drawing.Size(100, 27)
@@ -119,7 +119,7 @@ Partial Class Compra
         '
         'txtedad
         '
-        Me.txtedad.Location = New System.Drawing.Point(405, 373)
+        Me.txtedad.Location = New System.Drawing.Point(248, 264)
         Me.txtedad.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtedad.Name = "txtedad"
         Me.txtedad.Size = New System.Drawing.Size(100, 27)
@@ -127,7 +127,7 @@ Partial Class Compra
         '
         'txtpesoini
         '
-        Me.txtpesoini.Location = New System.Drawing.Point(245, 373)
+        Me.txtpesoini.Location = New System.Drawing.Point(88, 264)
         Me.txtpesoini.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtpesoini.Name = "txtpesoini"
         Me.txtpesoini.Size = New System.Drawing.Size(100, 27)
@@ -135,7 +135,7 @@ Partial Class Compra
         '
         'txttotal
         '
-        Me.txttotal.Location = New System.Drawing.Point(762, 837)
+        Me.txttotal.Location = New System.Drawing.Point(618, 702)
         Me.txttotal.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txttotal.Name = "txttotal"
         Me.txttotal.Size = New System.Drawing.Size(100, 27)
@@ -144,7 +144,7 @@ Partial Class Compra
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(693, 843)
+        Me.Label5.Location = New System.Drawing.Point(549, 708)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(50, 20)
         Me.Label5.TabIndex = 25
@@ -152,7 +152,7 @@ Partial Class Compra
         '
         'btsalir
         '
-        Me.btsalir.Location = New System.Drawing.Point(347, 809)
+        Me.btsalir.Location = New System.Drawing.Point(203, 674)
         Me.btsalir.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btsalir.Name = "btsalir"
         Me.btsalir.Size = New System.Drawing.Size(139, 77)
@@ -162,7 +162,7 @@ Partial Class Compra
         '
         'btguardar
         '
-        Me.btguardar.Location = New System.Drawing.Point(197, 809)
+        Me.btguardar.Location = New System.Drawing.Point(53, 674)
         Me.btguardar.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.btguardar.Name = "btguardar"
         Me.btguardar.Size = New System.Drawing.Size(139, 77)
@@ -175,7 +175,7 @@ Partial Class Compra
         Me.DataGridView1.AllowUserToAddRows = False
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.cPesoini, Me.cedad, Me.craza, Me.cprecio_compra})
-        Me.DataGridView1.Location = New System.Drawing.Point(203, 461)
+        Me.DataGridView1.Location = New System.Drawing.Point(46, 352)
         Me.DataGridView1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
@@ -281,7 +281,7 @@ Partial Class Compra
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(627, 880)
+        Me.Label2.Location = New System.Drawing.Point(483, 745)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(115, 20)
         Me.Label2.TabIndex = 38
@@ -289,7 +289,7 @@ Partial Class Compra
         '
         'txtcodgrupo
         '
-        Me.txtcodgrupo.Location = New System.Drawing.Point(761, 873)
+        Me.txtcodgrupo.Location = New System.Drawing.Point(617, 738)
         Me.txtcodgrupo.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtcodgrupo.Name = "txtcodgrupo"
         Me.txtcodgrupo.Size = New System.Drawing.Size(100, 27)
@@ -298,7 +298,7 @@ Partial Class Compra
         'Button1
         '
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.Location = New System.Drawing.Point(989, 893)
+        Me.Button1.Location = New System.Drawing.Point(845, 758)
         Me.Button1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(109, 51)
@@ -310,7 +310,7 @@ Partial Class Compra
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DarkSeaGreen
-        Me.ClientSize = New System.Drawing.Size(1129, 749)
+        Me.ClientSize = New System.Drawing.Size(1141, 835)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.txtcodgrupo)
