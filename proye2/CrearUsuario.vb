@@ -24,7 +24,7 @@ Public Class CrearUsuario
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim conc As New SqlClient.SqlConnection
-        conc.ConnectionString = " Data Source=DESKTOP-PE4OUB7;Initial Catalog=base_proyecto;Integrated Security=True "
+        conc.ConnectionString = " Data Source=localhost;Initial Catalog=base_proyecto;Integrated Security=True "
         conc.Open()
 
         Dim gu As String = "insert into usuarios(cod_usuario,usuario,contrasenia,tipo_usuario) values(@cod_usuario,@usuario,@contrasenia,@tipo_usuario)"
@@ -46,7 +46,7 @@ Public Class CrearUsuario
 
     Private Sub crearusuario_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim conc As New SqlClient.SqlConnection
-        conc.ConnectionString = "Data Source=DESKTOP-PE4OUB7;Initial Catalog=base_proyecto;Integrated Security=True"
+        conc.ConnectionString = "Data Source=localhost;Initial Catalog=base_proyecto;Integrated Security=True"
         conc.Open()
 
         Dim datousuario As New DataTable
