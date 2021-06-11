@@ -454,19 +454,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Josue\\.nuget\\packages\\": {}
+    "C:\\Users\\Oscar Andrade\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Josue\\source\\repos\\Proyecto-control-ganado\\proye2\\proye.vbproj",
+      "projectUniqueName": "D:\\Universidad\\Estudios\\Implementación de Software\\ProyectoGanado\\Proyecto-control-ganado\\proye2\\proye.vbproj",
       "projectName": "proye",
-      "projectPath": "C:\\Users\\Josue\\source\\repos\\Proyecto-control-ganado\\proye2\\proye.vbproj",
-      "packagesPath": "C:\\Users\\Josue\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Josue\\source\\repos\\Proyecto-control-ganado\\proye2\\obj\\",
+      "projectPath": "D:\\Universidad\\Estudios\\Implementación de Software\\ProyectoGanado\\Proyecto-control-ganado\\proye2\\proye.vbproj",
+      "packagesPath": "C:\\Users\\Oscar Andrade\\.nuget\\packages\\",
+      "outputPath": "D:\\Universidad\\Estudios\\Implementación de Software\\ProyectoGanado\\Proyecto-control-ganado\\proye2\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Josue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Oscar Andrade\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -515,7 +520,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
